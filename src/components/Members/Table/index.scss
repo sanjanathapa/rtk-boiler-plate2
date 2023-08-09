@@ -1,0 +1,133 @@
+.sticky-col {
+  background-color: #fff;
+  // Commented temporarily because not working on last row
+  // top: 0;
+
+  z-index: 5;
+  position: sticky;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &:hover {
+    overflow: visible;
+  }
+
+  &:nth-child(1) {
+    left: 0px;
+    min-width: 50px;
+    max-width: 50px;
+  }
+
+  &:nth-child(2) {
+    left: 50px;
+    min-width: 130px;
+    max-width: inherit; //130px
+  }
+
+  &:nth-child(3) {
+    left: 180px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(4) {
+    left: 310px;
+    min-width: 130px;
+    max-width: inherit; //130px
+  }
+
+  &:nth-child(5) {
+    left: 440px;
+    min-width: 130px;
+    max-width: inherit; //130px
+  }
+
+  &:nth-child(6) {
+    left: 570px;
+    min-width: 130px;
+    max-width: inherit; //130px
+  }
+
+  &:nth-child(7) {
+    left: 700px;
+    min-width: 130px;
+    max-width: inherit; //130px
+  }
+
+  &:nth-child(8) {
+    left: 830px;
+    min-width: 130px;
+    max-width: inherit; //130px
+  }
+
+  &:nth-child(9) {
+    left: 960px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(10) {
+    left: 1090px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(11) {
+    left: 1220px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(12) {
+    left: 1350px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(13) {
+    left: 1480px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(14) {
+    left: 1610px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(15) {
+    left: 1740px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(16) {
+    left: 1870px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  &:nth-child(17) {
+    left: 2000px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+}
+
+th.sticky-col {
+  z-index: 10;
+
+  div {
+    overflow: hidden;
+    display: inline-flex;
+  }
+}
+
+td.sticky-col {
+  z-index: 9;
+}
+
+.add-shadow {
+  box-shadow: inset -6px 0px 5px -5px rgb(0 0 0 / 15%);
+}

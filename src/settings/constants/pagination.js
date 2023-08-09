@@ -1,0 +1,5 @@
+export const PAGINATION = {
+  INITIAL_PAGE: 0,
+  ROWS_PER_PAGE: 50,
+  ROWS_PER_PAGE_OPTIONS: [5, 10, 20, 50],
+};
